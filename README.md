@@ -60,7 +60,7 @@
 git clone https://github.com/fengmic/fengmic-blog.git
 
 # 进入项目目录
-cd nextjs-anime-blog
+cd fengmic-blog
 
 # 安装依赖
 npm install

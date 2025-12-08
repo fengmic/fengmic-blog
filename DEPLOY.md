@@ -11,12 +11,12 @@
 - **框架预设**: `Next.js (Static HTML Export)`
 - **构建命令**: `npm run build`
 - **构建输出目录**: `out`
-- **Node.js 版本**: `18` (已在 `.node-version` 中配置)
+- **Node.js 版本**: `20.11.0` (已在 `.node-version` 中配置)
 
-### 环境变量（如需要）
+### 环境变量
 
 ```
-NODE_VERSION=18
+NODE_VERSION=20.11.0
 ```
 
 ## 🚀 部署步骤
@@ -134,8 +134,11 @@ https://fengmic-blog.pages.dev
 
 ## 🆘 常见问题
 
+### Q: 构建失败提示 Node.js 版本不够？
+A: 确保在 Cloudflare Pages 设置中添加环境变量 `NODE_VERSION=20.11.0`，或在项目根目录的 `.node-version` 文件中已设置为 `20.11.0`。
+
 ### Q: 构建失败？
-A: 检查 Node.js 版本是否为 18，确保所有依赖都已安装。
+A: 检查 Node.js 版本是否为 20.11.0 或更高，确保所有依赖都已安装。
 
 ### Q: 图片不显示？
 A: 确保外部图片域名已添加到 `next.config.mjs` 的 `remotePatterns` 中。

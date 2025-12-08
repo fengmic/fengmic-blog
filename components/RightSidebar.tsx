@@ -48,8 +48,7 @@ export default function RightSidebar({ images, tags, onTagClick }: RightSidebarP
       {/* 图片展示区 */}
       <div className="glass-effect rounded-2xl p-4 shadow-lg overflow-hidden">
         <h3 className="text-lg font-bold text-gray-800 mb-3 flex items-center">
-          <span className="mr-2">🖼️</span>
-          图片展示
+          <span className="mr-2"></span>
         </h3>
         <div className="relative h-48 rounded-xl overflow-hidden bg-gradient-to-br from-pink-200 to-purple-200">
           <AnimatePresence mode="wait">

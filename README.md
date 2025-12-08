@@ -29,16 +29,19 @@
 ## 🚀 技术栈
 
 ### 核心框架
+
 - **Next.js 16.0.7** - 最新的 App Router + Turbopack
 - **React 19.2.1** - 服务端组件支持
 - **TypeScript** - 完整类型支持
 
 ### UI & 样式
+
 - **Tailwind CSS 3.4** - 原子化 CSS 框架
 - **Framer Motion 11** - 动画库
 - **响应式设计** - 移动端友好
 
 ### 内容处理
+
 - **gray-matter** - Markdown Front Matter 解析
 - **remark & rehype** - Markdown 处理管道
 - **rehype-highlight** - 代码语法高亮
@@ -47,14 +50,14 @@
 
 ### 环境要求
 
-- Node.js 18+ 
+- Node.js 18+
 - npm 或 yarn
 
 ### 安装
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/nextjs-anime-blog.git
+git clone https://github.com/fengmic/fengmic-blog.git
 
 # 进入项目目录
 cd nextjs-anime-blog
@@ -171,39 +174,46 @@ images: {
 ## 🎨 页面展示
 
 ### 首页动画
-- 50 颗星星流动动画
+
+- 星星流动动画
 - 5 颗流星划过效果
 - 渐变背景和霓虹文字
 
 ### 博客列表
+
 - 文章卡片展示
 - 随机名言显示
 - 标签筛选功能
 
 ### 文章详情
+
 - Markdown 渲染
 - 代码语法高亮
 - 流畅的阅读体验
 
 ### 侧边栏
+
 - **左侧**: 个人头像、信息、社交链接
 - **右侧**: 动漫日历、图片轮播、相册入口
 
 ## 🔧 技术亮点
 
 ### 性能优化
+
 - ✅ Turbopack 超快构建
 - ✅ 服务端组件减少客户端 JS
 - ✅ 图片自动优化和懒加载
 - ✅ 预渲染动画位置避免 hydration 错误
 
 ### 开发体验
+
 - ✅ TypeScript 完整类型支持
 - ✅ 热模块替换（HMR）
 - ✅ 清晰的项目结构
 - ✅ 模块化组件设计
 
 ### 用户体验
+
 - ✅ 流畅的页面切换动画
 - ✅ 响应式设计适配多端
 - ✅ 可爱的动漫风格 UI
@@ -212,12 +222,14 @@ images: {
 ## 🛠️ 开发说明
 
 ### 修复的问题
+
 - ✅ React 19 hydration 错误
 - ✅ Next.js 16 参数异步化
 - ✅ 图片域名配置
 - ✅ 开发指示器隐藏
 
 ### 配置要点
+
 - 使用 `useEffect` 延迟加载客户端组件
 - 预生成随机位置避免 SSR/CSR 不一致
 - 配置图片远程域名白名单
@@ -241,15 +253,10 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 如有问题或建议，欢迎通过以下方式联系：
 
 - GitHub Issues: [提交问题](https://github.com/your-username/nextjs-anime-blog/issues)
-- Email: your-email@example.com
+- Email: fengmic103@163.com
 
 ---
 
 <div align="center">
 
 **⭐ 如果这个项目对你有帮助，请给个 Star 吧！⭐**
-
-Made with ❤️ and Next.js
-
-</div>
-

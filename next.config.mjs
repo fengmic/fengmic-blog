@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Cloudflare Pages 静态导出配置
+  output: 'export',
   // 优化生产构建
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  // 图片优化 - 使用新的 remotePatterns 配置
+  // 图片优化 - 静态导出模式需要 unoptimized
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -21,7 +24,6 @@ const nextConfig = {
         hostname: 's1.imagehub.cc',
       },
     ],
-    formats: ['image/avif', 'image/webp'],
   },
   // 启用实验性优化功能
   experimental: {
@@ -34,6 +36,8 @@ const nextConfig = {
     appIsrStatus: false,
     buildActivity: false,
   },
+  // 配置 trailing slash
+  trailingSlash: true,
 };
 
 export default nextConfig;

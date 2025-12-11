@@ -1,4 +1,4 @@
-# 🌸 Next.js 动漫风格博客系统
+# 🌸 楓念的博客
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8?style=flat-square&logo=tailwind-css)
 
-一个充满动漫元素的现代化个人博客系统，采用 Next.js 16 和 React 19 构建
+楓念的个人博客 - 分享二次元、技术、生活的地方
 
 [在线演示](#) | [功能特性](#-功能特性) | [快速开始](#-快速开始)
 
